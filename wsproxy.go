@@ -11,7 +11,7 @@ import (
 )
 
 var authsrv = flag.String("a", "localhost:567", "auth server to proxy to")
-var ncpusrv = flag.String("c", "localhost:567", "auth server to proxy to")
+var ncpusrv = flag.String("c", "localhost:567", "ncpu server to proxy to")
 
 var listen = flag.String("l", ":8080", "websocket server bind address")
 
